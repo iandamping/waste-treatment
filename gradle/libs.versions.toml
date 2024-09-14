@@ -1,0 +1,147 @@
+[versions]
+agp = "8.4.2"
+androidGifDrawable = "1.2.22"
+core = "3.4.1"
+firebaseBom = "33.1.2"
+jluhn = "-SNAPSHOT"
+konsist = "0.15.1"
+kotlin = "1.9.0"
+pinview = "1.4.4"
+safeArgs = "2.7.7"
+hilt = "2.48"
+gms = "4.4.2"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+ksp = "1.9.0-1.0.12"
+
+coroutine-version = "1.8.0"
+detekt-gradle-plugin = "1.23.3"
+gson-version = "2.10.1"
+javapoet = "1.13.0"
+kover-gradle-plugin = "0.7.3"
+navigation-version = "2.7.7"
+room-version = "2.4.3"
+datastore-version = "1.0.0"
+coil-version = "2.2.2"
+glide-version = "4.16.0"
+securityCrypto = "1.0.0"
+timber-version = "5.0.1"
+lottie-view-version = "5.2.0"
+splash-screen-version = "1.0.0"
+androidx-core-version = "1.8.0"
+lifecycle-runtime-version = "2.6.1"
+shimmer-version = "0.5.0"
+retrofit-version = "2.9.0"
+okhttp3-version = "4.10.0"
+rxjava3-version = "3.1.8"
+rxjava3-android-version = "3.0.2"
+epoxy-version = "5.1.1"
+mockito-version = "4.4.0"
+mockk-version = "1.13.5"
+junit-version-ui = "1.1.5"
+camerax-version = '1.2.3'
+moshi-version = '1.9.3'
+turbine = "1.1.0"
+
+
+[libraries]
+android-gif-drawable = { module = "pl.droidsonroids.gif:android-gif-drawable", version.ref = "androidGifDrawable" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
+core = { module = "com.google.zxing:core", version.ref = "core" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database-ktx = { module = "com.google.firebase:firebase-database-ktx" }
+jluhn = { module = "com.github.Olverine:jLuhn", version.ref = "jluhn" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+konsist = { module = "com.lemonappdev:konsist", version.ref = "konsist" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+detekt-gradle-plugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt-gradle-plugin" }
+androidx-lifecycle-runtime = { module = "androidx.lifecycle:lifecycle-runtime", version.ref = "lifecycle-runtime-version" }
+androidx-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycle-runtime-version" }
+coroutine-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutine-version" }
+coroutine-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutine-version" }
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "hilt" }
+hilt-kapt = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
+
+javapoet = { module = "com.squareup:javapoet", version.ref = "javapoet" }
+kover-gradle-plugin = { module = "org.jetbrains.kotlinx:kover-gradle-plugin", version.ref = "kover-gradle-plugin" }
+pinview = { module = "io.github.chaosleung:pinview", version.ref = "pinview" }
+room = { module = "androidx.room:room-ktx", version.ref = "room-version" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-version" }
+room-kapt = { module = "androidx.room:room-compiler", version.ref = "room-version" }
+datastore-core = { module = "androidx.datastore:datastore-preferences-core", version.ref = "datastore-version" }
+datastore = { module = "androidx.datastore:datastore-preferences", version.ref = "datastore-version" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson-version" }
+coil-view = { module = "io.coil-kt:coil", version.ref = "coil-version" }
+glide-view = { module = "com.github.bumptech.glide:glide", version.ref = "glide-version" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber-version" }
+navigation-fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigation-version" }
+navigation-ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigation-version" }
+navigation-plugin-app-level = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigation-version" }
+splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "splash-screen-version" }
+lottie-view = { module = "com.airbnb.android:lottie", version.ref = "lottie-view-version" }
+shimmer-view = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer-version" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit-version" }
+retrofit-rx-adapter = { module = "com.squareup.retrofit2:adapter-rxjava3", version.ref = "retrofit-version" }
+retrofit-moshi-converter = { module = 'com.squareup.retrofit2:converter-moshi', version.ref = 'retrofit-version' }
+rxjava3 = { module = "io.reactivex.rxjava3:rxjava", version.ref = "rxjava3-version" }
+rxandroid = { module = "io.reactivex.rxjava3:rxandroid", version.ref = "rxjava3-android-version" }
+
+moshi = { module = 'com.squareup.moshi:moshi-kotlin', version.ref = 'moshi-version' }
+
+camerax-camera2 = { module = 'androidx.camera:camera-camera2', version.ref = 'camerax-version' }
+camerax-lifecycle = { module = 'androidx.camera:camera-lifecycle', version.ref = 'camerax-version' }
+camerax-view = { module = 'androidx.camera:camera-view', version.ref = 'camerax-version' }
+
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp3-version" }
+okhttp-logger = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp3-version" }
+
+epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy-version" }
+epoxy-kapt = { module = "com.airbnb.android:epoxy-processor", version.ref = "epoxy-version" }
+androidx-core-test = { module = "androidx.arch.core:core-testing", version.ref = "androidx-core-version" }
+hilt-unit-test = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
+hilt-kapt-unit-test = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hilt" }
+coroutine-unit-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutine-version" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito-version" }
+mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockito-version" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk-version" }
+instrumentation-test = { module = "androidx.test.ext:junit", version.ref = "junit-version-ui" }
+hilt-instrumentation-test = { module = "com.google.dagger:hilt-android-testing", version.ref = "hilt" }
+coroutine-instrumentation-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutine-version" }
+navigation-instrumentation-test = { module = "androidx.navigation:navigation-testing", version.ref = "navigation-version" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+safe-args-android = { id = "androidx.navigation.safeargs.kotlin", version.ref = "safeArgs" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+kotlin-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-parcelize = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "kotlin" }
+gms-service = { id = "com.google.gms.google-services", version.ref = "gms" }
+
+
+[bundles]
+"coroutine-bundle" = ["coroutine-core", "coroutine-android"]
+"room-bundle" = ["room", "room-runtime"]
+"rx-bundle" = ["rxjava3", "rxandroid"]
+"okhttp-bundle" = ["okhttp", "okhttp-logger"]
+"navigation-view" = ["navigation-fragment", "navigation-ui"]
+"mockito-bundle" = ["mockito-core", "mockito-inline"]
+"camerax-bundle" = ["camerax-camera2", "camerax-lifecycle", "camerax-view"]
+"retrofit-bundle" = ["retrofit", "retrofit-moshi-converter"]
