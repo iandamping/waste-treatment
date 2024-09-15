@@ -1,0 +1,44 @@
+{
+  "message": "Get item list success",
+  "message_code": "LimbahList-200",
+  "data": {
+    "items": [
+      {
+        "id": "93c49c73-30c8-4e45-92cc-ff63ffdb4325",
+        "name": "Minyak Bekas",
+        "unit": "Liter",
+        "price_pengepul": 4000,
+        "price_warga": 2000,
+        "price_total": 6000,
+        "image_url": ""
+      },
+      {
+        "id": "6d4f61de-fdc8-47f8-8c3d-6b40a05f545c",
+        "name": "Botol Air 1500ml",
+        "unit": "Botol",
+        "price_pengepul": 800,
+        "price_warga": 800,
+        "price_total": 1600,
+        "image_url": ""
+      },
+      {
+        "id": "9cc7ef48-03eb-4517-aeda-22b347d2d0b3",
+        "name": "Botol Air 600ml",
+        "unit": "Botol",
+        "price_pengepul": 400,
+        "price_warga": 800,
+        "price_total": 800,
+        "image_url": ""
+      },
+      {
+        "id": "21c7599b-0df4-445a-a245-5abe5900f797",
+        "name": "Kertas Bekas",
+        "unit": "kg",
+        "price_pengepul": 1000,
+        "price_warga": 1000,
+        "price_total": 2000,
+        "image_url": ""
+      }
+    ]
+  }
+}

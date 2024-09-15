@@ -1,0 +1,50 @@
+{
+  "message": "Get history success",
+  "message_code": "HstSaving-200",
+  "data": {
+    "data_current_page": 10,
+    "limit": 10,
+    "total": 30,
+    "page_current": 1,
+    "page_total": 3,
+    "list": [
+      {
+        "invoice_no": "INV.20240901120501.0005",
+        "date": "2024-09-01 12:05:01",
+        "pengepul_name": "Pengepul Desa 1",
+        "amount_pengepul": 80000,
+        "warga_name": "Bu Anti",
+        "amount_warga": 40000,
+        "amount_total": 120000,
+        "items": [
+          {
+            "name": "Minyak Bekas",
+            "unit": "Liter",
+            "qty": 10
+          }
+        ]
+      },
+      {
+        "invoice_no": "INV.20240820120501.0005",
+        "date": "2024-08-20 12:05:01",
+        "pengepul_name": "Pengepul Desa 1",
+        "amount_pengepul": 80000,
+        "warga_name": "Pak Andi",
+        "amount_warga": 40000,
+        "amount_total": 120000,
+        "items": [
+          {
+            "name": "Minyak Bekas",
+            "unit": "Liter",
+            "qty": 5
+          },
+          {
+            "name": "Botol Air 1500ml",
+            "unit": "Botol",
+            "qty": 3
+          }
+        ]
+      }
+    ]
+  }
+}

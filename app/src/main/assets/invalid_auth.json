@@ -1,0 +1,6 @@
+{
+  "success": true,
+  "message": "Invalid credentials",
+  "message_code": "AUTH-400",
+  "data": {}
+}

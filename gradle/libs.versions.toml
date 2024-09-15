@@ -2,10 +2,12 @@
 agp = "8.4.2"
 androidGifDrawable = "1.2.22"
 core = "3.4.1"
+espressoIdlingResource = "3.6.1"
 firebaseBom = "33.1.2"
 jluhn = "-SNAPSHOT"
 konsist = "0.15.1"
 kotlin = "1.9.0"
+mockkAndroid = "1.13.5"
 pinview = "1.4.4"
 safeArgs = "2.7.7"
 hilt = "2.48"
@@ -53,6 +55,7 @@ turbine = "1.1.0"
 [libraries]
 android-gif-drawable = { module = "pl.droidsonroids.gif:android-gif-drawable", version.ref = "androidGifDrawable" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-espresso-idling-resource = { module = "androidx.test.espresso:espresso-idling-resource", version.ref = "espressoIdlingResource" }
 androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
 core = { module = "com.google.zxing:core", version.ref = "core" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
@@ -76,6 +79,7 @@ hilt-kapt = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt" }
 
 javapoet = { module = "com.squareup:javapoet", version.ref = "javapoet" }
 kover-gradle-plugin = { module = "org.jetbrains.kotlinx:kover-gradle-plugin", version.ref = "kover-gradle-plugin" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockkAndroid" }
 pinview = { module = "io.github.chaosleung:pinview", version.ref = "pinview" }
 room = { module = "androidx.room:room-ktx", version.ref = "room-version" }
 room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-version" }

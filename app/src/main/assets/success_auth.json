@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "message": "Authentication Successfully",
+  "message_code": "AUTH-200",
+  "data": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZ2VudF9pZCI6NzgsImF1dGhvcml6ZWQiOnRydWUsImVtYWlsIjoiYmltYUBzYWt0aS50dXIiLCJleHAiOjE2MjQwODg4NzMsInVzZXIiOiJzYWt0aSIsInVzZXJfaWQiOjg2MX0.LBf8MjC8QAlJsi-dD-rvVquIau72COMyN-W02SIhlM8"
+  }
+}

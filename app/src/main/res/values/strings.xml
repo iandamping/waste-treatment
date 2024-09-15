@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">waste treatment</string>
+    <string name="default_error_message">The application has encountered an unknown error.</string>
 </resources>

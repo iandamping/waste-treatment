@@ -52,6 +52,15 @@ android {
             languageVersion.set(JavaLanguageVersion.of(17))
         }
     }
+
+    packaging {
+        resources {
+            excludes += "/META-INF/{AL2.0,LGPL2.1}"
+            merges += "META-INF/LICENSE.md"
+            merges += "META-INF/LICENSE-notice.md"
+        }
+    }
+
 }
 
 dependencies {
@@ -72,10 +81,11 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     testImplementation(libs.mockk)
-    androidTestImplementation ("io.mockk:mockk-android:1.13.5")
+    androidTestImplementation (libs.mockk.android)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     testImplementation("androidx.arch.core:core-testing:2.2.0")
+    implementation (libs.androidx.espresso.idling.resource)
     //konsist
     testImplementation(libs.konsist)
     //splash

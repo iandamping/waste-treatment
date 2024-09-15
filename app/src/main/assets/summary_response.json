@@ -1,0 +1,30 @@
+{
+  "message": "Get summary success",
+  "message_code": "SumSaving-200",
+  "data": {
+    "total_saving": 200000,
+    "items": [
+      {
+        "name": "Minyak Bekas",
+        "unit": "Liter",
+        "total_qty": 70,
+        "total_amount": 140000,
+        "image_url": ""
+      },
+      {
+        "name": "Botol Air 1500ml",
+        "unit": "Botol",
+        "total_qty": 50,
+        "total_amount": 40000,
+        "image_url": ""
+      },
+      {
+        "name": "Botol Air 600ml",
+        "unit": "Botol",
+        "total_qty": 50,
+        "total_amount": 20000,
+        "image_url": ""
+      }
+    ]
+  }
+}
