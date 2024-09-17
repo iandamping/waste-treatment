@@ -12,6 +12,15 @@ android {
     namespace = "com.junemon.wastetreatment"
     compileSdk = 34
 
+    signingConfigs {
+        create("waste-treatment") {
+            storeFile = file("$rootDir/jks-waste/waste.jks")
+            storePassword = "1234567890"
+            keyAlias = "key0"
+            keyPassword = "1234567890"
+        }
+    }
+
     defaultConfig {
         applicationId = "com.junemon.wastetreatment"
         minSdk = 24
@@ -25,10 +34,16 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("waste-treatment")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+
+        create("debug-non-api"){
+            isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("waste-treatment")
         }
     }
 
@@ -81,11 +96,11 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     testImplementation(libs.mockk)
-    androidTestImplementation (libs.mockk.android)
+    androidTestImplementation(libs.mockk.android)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     testImplementation("androidx.arch.core:core-testing:2.2.0")
-    implementation (libs.androidx.espresso.idling.resource)
+    implementation(libs.androidx.espresso.idling.resource)
     //konsist
     testImplementation(libs.konsist)
     //splash
@@ -117,8 +132,8 @@ dependencies {
     implementation(libs.hilt)
     kapt(libs.hilt.kapt)
 
-    androidTestImplementation ("com.google.dagger:hilt-android-testing:2.48")
-    kaptAndroidTest ("com.google.dagger:hilt-android-compiler:2.48")
+    androidTestImplementation("com.google.dagger:hilt-android-testing:2.48")
+    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.48")
 
     //timber
     implementation(libs.timber)

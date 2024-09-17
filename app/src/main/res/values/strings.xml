@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">waste treatment</string>
     <string name="default_error_message">The application has encountered an unknown error.</string>
+    <string name="notification_permission">Notification Permission</string>
+    <string name="first_permission_message">if you want to get notification, Notification permission must be granted</string>
+    <string name="permission_not_granted_message">Notification can not be shown because Permission not granted</string>
+    <string name="negative_button_message">No</string>
+    <string name="positive_button_message">Yes</string>
 </resources>
